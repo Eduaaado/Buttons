@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    background: #151515;
+}
+
+.container {
+    margin: 60px 100px;
+}
+
+a {
+    position: relative;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    width: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    font-size: 24px;
+    float: left;
+    margin: 15px;
+    transition: .3s ease-out;
+}
+
+.color-change:hover {
+    color: #151515;
+    background-color: #fff;
+}
+
+.round:hover {
+    border-radius: 40px;
+}
+
+.resize:hover {
+    transform: scale(1.1);
+}
+
+.bright:hover {
+    box-shadow: inset 0px 0px 10px 0px #fff, 0px 0px 10px 0px #fff;
+    text-shadow: 0px 0px 20px #fff;
+}
+
+.expand:hover {
+    letter-spacing: 5px;
+    width: 195px;
+    margin: 15px 7.5px;
+}
+
+.border:hover {
+    padding-bottom: 6px;
+    border-bottom: 5px solid #fff;
+}
